@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="BMW M5 E60 — легендарный спортивный седан с V10.">
+<title>BMW M5 E60 — Легенда V10</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#07090d;color:#fff;line-height:1.5}
+a{text-decoration:none;color:inherit}
+.hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;background:linear-gradient(90deg,rgba(4,6,10,.97) 0%,rgba(4,6,10,.76) 42%,rgba(4,6,10,.25) 100%),url("https://www.automobilesreview.com/gallery/2005-bmw-m5/2005-bmw-m5-01.jpg") center/cover}
+.hero:after{content:"M5";position:absolute;right:-35px;bottom:-90px;font-size:35vw;font-weight:900;color:rgba(255,255,255,.025);pointer-events:none}
+.nav{position:absolute;top:0;left:0;width:100%;display:flex;justify-content:space-between;align-items:center;padding:22px 6%;z-index:5}
+.logo{font-size:24px;font-weight:900;letter-spacing:2px}.logo span{color:#39a9ff}
+.nav a{margin-left:22px;color:#cbd0d8;font-size:14px}
+.content{width:min(1100px,88%);margin:auto;position:relative;z-index:2}
+.badge{display:inline-block;border:1px solid #66717e;border-radius:30px;padding:7px 13px;color:#e2e6eb;font-size:12px;letter-spacing:2px;text-transform:uppercase;margin-bottom:18px}
+h1{font-size:clamp(55px,12vw,130px);line-height:.85;letter-spacing:-6px}h1 span{display:block;color:#39a9ff}
+.subtitle{max-width:580px;color:#d0d5dc;margin:28px 0;font-size:17px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap}.btn{padding:14px 22px;border-radius:9px;font-weight:700;display:inline-block;transition:.2s}.btn.primary{background:#fff;color:#080a0e}.btn.secondary{border:1px solid #606b78;color:#fff}.btn:hover{transform:translateY(-2px)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#29313b;margin-top:70px;border:1px solid #29313b;border-radius:14px;overflow:hidden}.stat{background:rgba(12,16,22,.92);padding:20px}.stat b{display:block;font-size:24px}.stat small{color:#aab2bd}
+section{padding:90px 6%}.section-title{font-size:40px;margin-bottom:12px}.section-text{color:#969faa;max-width:700px;margin-bottom:35px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:linear-gradient(145deg,#111720,#0b0e13);border:1px solid #252d37;border-radius:18px;padding:28px}.card .num{font-size:13px;color:#39a9ff;letter-spacing:2px}.card h3{font-size:23px;margin:14px 0 8px}.card p{color:#939ca8}
+.gallery{display:grid;grid-template-columns:2fr 1fr 1fr;gap:14px}.gallery img{width:100%;height:260px;object-fit:cover;border-radius:16px;border:1px solid #252d37;transition:.3s}.gallery img:hover{transform:scale(1.02)}.gallery img:first-child{height:534px;grid-row:span 2}
+.video{margin-top:40px;border-radius:18px;overflow:hidden;border:1px solid #252d37;background:#000}.video iframe{display:block;width:100%;aspect-ratio:16/9;border:0}
+.quote{background:#10151d;border-top:1px solid #222b35;border-bottom:1px solid #222b35;text-align:center;padding:90px 8%}.quote p{font-size:clamp(25px,4vw,45px);font-weight:700;max-width:900px;margin:auto}
+footer{padding:35px 6%;color:#727b87;text-align:center;border-top:1px solid #202732}
+@media(max-width:700px){.nav a{display:none}.hero{min-height:900px;background-position:60% center}h1{letter-spacing:-3px}.stats{grid-template-columns:repeat(2,1fr)}.cards,.gallery{grid-template-columns:1fr}.gallery img,.gallery img:first-child{height:230px;grid-row:auto}section{padding:65px 6%}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+<nav class="nav"><div class="logo">BMW <span>M5</span></div><div><a href="#about">О модели</a><a href="#gallery">Галерея</a><a href="#video">Видео</a></div></nav>
+<div class="content">
+<div class="badge">E60 · V10 · M POWER</div>
+<h1>BMW <span>M5</span></h1>
+<p class="subtitle">Легендарный спортивный седан, объединивший повседневный комфорт и характер настоящего BMW M.</p>
+<div class="buttons"><a class="btn primary" href="#gallery">Смотреть галерею</a><a class="btn secondary" href="#video">Смотреть видео</a></div>
+<div class="stats"><div class="stat"><b>5.0 л</b><small>V10</small></div><div class="stat"><b>507 л.с.</b><small>мощность</small></div><div class="stat"><b>520 Н·м</b><small>крутящий момент</small></div><div class="stat"><b>4.7 с</b><small>0–100 км/ч</small></div></div>
+</div>
+</header>
+
+<section id="about"><div class="content">
+<h2 class="section-title">Легенда своего времени</h2>
+<p class="section-text">BMW M5 E60 — четвёртое поколение M5. Его главная особенность — высокооборотистый атмосферный V10 мощностью 507 л.с.</p>
+<div class="cards">
+<article class="card"><div class="num">01 / ENGINE</div><h3>V10 S85</h3><p>5,0-литровый десятицилиндровый двигатель с максимальными 8 250 об/мин.</p></article>
+<article class="card"><div class="num">02 / DESIGN</div><h3>Агрессивный стиль</h3><p>Расширенные крылья, боковые жабры, 19-дюймовые колёса и четыре патрубка выхлопа.</p></article>
+<article class="card"><div class="num">03 / M POWER</div><h3>Спортивный характер</h3><p>Технологии BMW M сделали автомобиль одновременно спортивным и пригодным для повседневной езды.</p></article>
+</div></div></section>
+
+<section id="gallery"><div class="content">
+<h2 class="section-title">Галерея</h2>
+<p class="section-text">Несколько видов легендарной M5 E60.</p>
+<div class="gallery">
+<img src="https://www.automobilesreview.com/gallery/2005-bmw-m5/2005-bmw-m5-01.jpg" alt="BMW M5 E60 на дороге">
+<img src="https://images.caradisiac.com/images/9/2/5/5/189255/S1-bmw-m5-e60-2004-2010-la-familiale-au-moteur-de-formule-1-des-23-000-eur-669036.jpg" alt="BMW M5 E60 спереди">
+<img src="https://www.autocentrum.pl/ac-file/gallery-photo/565f8919f80f0a9635024b2f/bmw-m5-e60-04.jpg" alt="BMW M5 E60 сзади">
+<img src="https://www.autodata1.com/media/bmw/pics/bmw-m5-e60-%5B856%5D.jpg" alt="BMW M5 E60 в движении">
+</div>
+</div></section>
+
+<section id="video"><div class="content">
+<h2 class="section-title">Видео</h2>
+<p class="section-text">Встроенный видеоблок YouTube. Для воспроизведения потребуется интернет.</p>
+<div class="video">
+<iframe src="https://www.youtube.com/embed/CaGILvxXqV0" title="BMW M5 E60 video" allowfullscreen></iframe>
+</div>
+<p style="color:#777f89;margin-top:12px;font-size:13px">Замените VIDEO_ID в коде на ID любого подходящего видео YouTube, чтобы оно воспроизводилось.</p>
+</div></section>
+
+<div class="quote"><p>«Когда спортивный автомобиль выглядит как обычный седан — это и есть настоящий M5.»</p></div>
+<footer>BMW M5 E60 · Fan Concept Website</footer>
+</body>
+</html>
